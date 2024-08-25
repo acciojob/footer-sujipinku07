@@ -1,11 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+	margin:0;
+  padding: 50;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 .media-icons {
 	display: flex;
+	justify-content: flex-end;
+	gap:10px;
 }
 .link-boxes {
   display: flex;
