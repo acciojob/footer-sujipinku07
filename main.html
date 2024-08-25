@@ -1,47 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	  <style>
-		  .footer {
-			  background-color:#333;
-			  color:white;
-			  padding: 20px 0;
-		  }
-		  .content {
-			    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.link-boxes ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.link-boxes {
-	display:flex;
-    color: white;
-    text-decoration: none;
-		  }
-		  .media-icons {
-			  display:flex;
-			  color:white;
-			  margin-right: 15px;
-		  }
-		  .bottom-details {
-			  text-align: center;
-			  padding-top: 10px;
-		  }
-		  </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -52,33 +11,61 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
+
   <body>
     <footer>
       <div class="content">
         <div class="top">
           <div class="logo-details">
-            <span class="logo_name">company</span>
+            <span class="logo_name">Company</span>
           </div>
           <div class="media-icons">
-			  <i class="fa fa-facebook"></i>
-			  <i class="fa fa-twitter"></i>
-              <i class="fa fa-instagram"></i>
-              <i class="fa fa-linkedin"></i>
-              <i class="fa fa-youtube"></i><!-- your code here -->
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
         </div>
         <div class="link-boxes">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				 <li><a href="#">Links</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>		
-			</ul><!-- your code here -->
+          <ul class="box">
+            <li class="link_name">Home</li>
+            <li><a href="#">Home</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">About</li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Links</li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Services</li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">SEO Optimization</a></li>
+            <li><a href="#">Digital Marketing</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Contact</li>
+            <li><a href="#">8879887262</a></li>
+            <li><a href="#">support@company.com</a></li>
+          </ul>
         </div>
       </div>
       <div class="bottom-details">
-        <p>Contact Number: 8879887262</p><!-- your code here -->
+        <div class="bottom_text">
+          <span class="copyright_text">© 2024 Company. All rights reserved.</span>
+          <span class="policy_terms">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+          </span>
+        </div>
       </div>
     </footer>
-  </body>
+  </body>
 </html>
